@@ -10,27 +10,27 @@ Guía Solución [PIP](https://stackoverflow.com/questions/32639074/why-am-i-gett
 
 Para realizar la instalación de BEHAVE Usando PIP ejecute el siguiente comando que ejecutara BDD, lo cual es una técnica de desarrollo ágil:
 
-> pip install behave
+> `pip install behave`
 
 También puede actualizar el comportamiento a una version mas reciente mediante el siguiente comando:
 
->pip install -U behave
+>`pip install -U behave`
  
 ## Usando una distribución de Origen
 
 Después de desempaquetar la distribución de origen de [Behave](https://pypi.org/project/behave/) , ingrese el directorio recién creado `behave-<version>` y ejecute:
 
-> python setup.py install
+> `python setup.py install`
 
 # Usando El repositorio de Github
 
 Ejecute el siguiente comando para instalar la versión más reciente desde el [repositorio Github](https://github.com/behave/behave):
 
- > pip install git+https://github.com/behave/behave
+ > `pip install git+https://github.com/behave/behave`
 
  Para instalar una versión etiquetada desde el [repositorio Github](https://github.com/behave/behave),utilice:
 
- >pip install git+https://github.com/behave/behave@`<tag>`
+ >`pip install git+https://github.com/behave/behave@<tag>`
 
  `<tag>`es el marcador de posición de una [etiqueta existente](https://github.com/behave/behave/tags).
 

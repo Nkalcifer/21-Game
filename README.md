@@ -1,8 +1,10 @@
 # BEHAVE Tutorial
 
+***Usaremos Python 3, y Visual Estudio Code para el siguiente Tutorial.***
+
 ![BEHAVE USES](https://camo.githubusercontent.com/9afcdb94ede677a8c791beaa5031755af94ac56969bedd3b3e9af9b48d535fa5/68747470733a2f2f7261772e6769746875622e636f6d2f6265686176652f6265686176652f6d61737465722f646f63732f5f7374617469632f6265686176655f6c6f676f312e706e67)
 
-> Para instalar BEHAVE, asegúrese de poder ejecutar PIP para Python. Si tiene algún problema visite la siguiente enlace:
+> Para instalar BEHAVE, asegúrese de poder ejecutar PIP para Python. Si tiene algún problema visite el siguiente enlace:
 
 Guía Solución [PIP](https://stackoverflow.com/questions/32639074/why-am-i-getting-importerror-no-module-named-pip-right-after-installing-pip/53921438).
 
@@ -35,5 +37,25 @@ Ejecute el siguiente comando para instalar la versión más reciente desde el [r
  `<tag>`es el marcador de posición de una [etiqueta existente](https://github.com/behave/behave/tags).
 
 
+# 21 BlackJack & Behave
 
+### Para este proceso, se iniciara con la generación de ciertas Historias de Usuario que permitan conocer algunas condiciones en el que el juego se puede desenvolver. Vamos a dividir las posibles historias de usuario en los participantes base del juego BlackJack, EL jugador y el Crupier o Repartidor.
+
+### Las Historias Cumplirán la siguiente estructura
+
+#### Como **ROL** quiero **ACCIÓN** para **FUNCIONALIDAD**  
+
+
+### El rol esta definido por El jugador o el Crupier
+### La Acción es la ejecutada por el actor en el Rol de la historia.
+### La funcionalidad es el objetivo que cumple dicha acción.  
+
+## Historias de Usuario BlackJack
+1. Como repartidor quiero entregar 2 cartas a cada jugador para iniciar el juego.
+2. Como jugador quiero determinar el valor de la mano para seguir jugando.
+3. Como jugador quiero plantarme para finalizar el turno.
+4. Como jugador quiero solicitar una carta adicional para seguir jugando.
+5. Como jugador quiero determinar el valor de una carta para determinar el valor de la mano.
+6. Como repartidor quiero barajar las cartas para iniciar el juego.
+7. Como repartidor quiero saber el valor de las manos para determinar quién gana.
 

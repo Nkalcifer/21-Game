@@ -59,3 +59,9 @@ Ejecute el siguiente comando para instalar la versión más reciente desde el [r
 6. Como repartidor quiero barajar las cartas para iniciar el juego.
 7. Como repartidor quiero saber el valor de las manos para determinar quién gana.
 
+### Considerando estas Historias de Usuario lo primero sera Crear una carpeta de proyecto sobre la cual trabajaremos. (En nuestro caso lo llamamos ***Tuto-21-BEHAVE***)  
+### Dentro de nuestro proyecto crearemos un directorio llamado "Features", y dentro de este directorio crearemos un feature llamado carta.feature. con esto tendremos la siguiente estructura.
+
+![estructura](/img/estructura.jpg)
+
+### Lo siguiente a esto sera construir el feature considerando la condición que se presenta en una carta. Así tendremos lo siguiente:
